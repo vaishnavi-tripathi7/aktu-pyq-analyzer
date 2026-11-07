@@ -1,0 +1,193 @@
+SECTION A
+
+1. Attempt all questions in brief. 2 x 07 = 14
+Q no. Question CO Leve
+l
+a. Define candidate key and super key with example. 1 K1
+b. Differentiate TRUNCATE and DELETE command 2 K2
+c. Define triggers and its types. 2 K1
+d. Analyze and find the FDS in the following relation
+X Y Z
+1 4 2
+2 5 3
+1 4 2
+3 2 2
+
+3 K4
+
+e. List all prime and non-prime attributes In Relation R(A,B,C,D,E) with FD
+set F = {AB→C, B→E, C→D}.
+
+3 K1
+f. Explain properties of Transaction. 4 K2
+g. Define multiple granuality. 5 K1
+
+SECTION B
+
+2. Attempt any three of the following: 07 x 3 = 07
+Q no. Question CO Leve
+l
+a. Explain the architecture of DBMS in terms of its components with a
+proper diagram.
+
+1 K2
+
+b. Explain Joins? Discuss all types of Joins with the help of proper example
+of each.
+
+2 K2
+
+c. Consider the relation R (P, Q, S, T, X, Y, Z, W) with the following
+functional dependencies.
+PQ → X; P → YX; Q → Y; Y → ZW
+Consider the decomposition of the relation R into the constituent
+relations according to the following two decomposition schemes.
+D1 : R = [(P, Q, S, T); (P, T, X); (Q, Y); (Y, Z, W)]
+D2 : R = [(P, Q, S); (T, X); (Q, Y); (Y, Z, W)]
+Identify whether it is and lossy decomposition and justify your answer.
+
+3 K4
+
+d. Determine different types of failures in case of transactions and how it
+can be recovered based on log file? Explain with suitable example.
+
+4 K3
+
+e. Discuss Concurrency control. Why it is needed in DBMS? Also explain
+timestamp based ordering in Concurrency control.
+
+5 K2
+
+QP25DP1_290
+| 09-Jan-2025 9:05:30 AM | 117.55.242.132
+
+QP25DP1_290 | 09-Jan-2025 9:05:30 AM | 117.55.242.132
+Printed Page: 2 of 3
+Subject Code: BCS501
+0Roll No: 0 0 0 0 0 0 0 0 0 0 0 0 0
+BTECH
+
+(SEM V) THEORY EXAMINATION 2024-25
+DATABASE MANAGEMENT SYSTEM
+
+TIME: 3 HRS M.MARKS: 70
+
+2 | Page
+
+SECTION C
+
+3. Attempt any one part of the following: 07 x 1 = 07
+Q no. Question CO Level
+a. Illustrate the concept of data independence and its type with example.
+Why is it required?
+
+1 K4
+b.  Explain the process of reducing an ER diagram to tables. Provide a
+simple example.
+ Given the following ER diagram representing a university database:
+Entities:
+Student: Attributes - StudentID (Primary Key), Name, Email
+Course: Attributes - CourseID (Primary Key), CourseName, Credits
+Enrollment: Attributes - EnrollmentID (Primary Key), DateEnrolled
+Relationships:
+Enrolls: A many-to-many relationship between Student and Course,
+represented by the Enrollment entity.
+a) Reduce the ER diagram to relational tables by listing the tables and
+their corresponding attributes.
+b) Identify primary keys and foreign keys in the tables you created.
+
+1 K4
+
+4. Attempt any one part of the following: 07 x 1 = 07
+Q no. Question CO Level
+a. Employee (ename, street, city)
+Worksfor (ename, company_name, salary)
+Company (Company_name, city)
+Construct the SQL statements for the following
+(i) Create the above given tables with suitable data types and size.
+(ii) Find the name of employees who live in the same city where they
+work.
+(iii) Find the name of employees who have salary more than Rs. 50000.
+(iv) Find the name of employees who don't work in "tcs" company.
+(v) Find all employees whose name has second letter 'A'.
+(vi) Find the employee's name having second highest salary.
+
+2 K3
+
+b. Consider the following three relation schema S, P and SP in which S# is
+supplier code, P# part number and qty is quantity and others carry their
+respective meanings:
+S(S#, SNAME, SCITY, TURNOVER)
+P(P#,WEIGHT, COLOR, COST, SELLING PRICE)
+SP(S#, P#, QTY)
+Construct the appropriate RA statement for the following queries.
+i Get all details of supplier who operate from CALCUTTA with
+TURNOVER=80.
+ii Get part numbers weighting between 25 and 55.
+iii Get the part# which has cost greater than selling price.
+iv Get the part numbers whose color is red or black.
+v Get the SNAME where S# is 101.
+
+2 K3
+
+QP25DP1_290
+| 09-Jan-2025 9:05:30 AM | 117.55.242.132
+
+QP25DP1_290 | 09-Jan-2025 9:05:30 AM | 117.55.242.132
+Printed Page: 3 of 3
+Subject Code: BCS501
+0Roll No: 0 0 0 0 0 0 0 0 0 0 0 0 0
+BTECH
+
+(SEM V) THEORY EXAMINATION 2024-25
+DATABASE MANAGEMENT SYSTEM
+
+TIME: 3 HRS M.MARKS: 70
+
+3 | Page
+5. Attempt any one part of the following: 07 x 1 = 07
+Q no. Question CO Level
+a. Consider the following relational schemes for a library database: Book
+(Title, Author, Catalog_no, Publisher, Year, Price), Collection (Title,
+Author, Catalog_no) with in the following functional dependencies:
+I. Title Author --> Catalog_no
+II. Catalog_no --> Title, Author, Publisher, Year
+III. Publisher Title Year --> Price
+Analyze and find the highest normal form of the relation Book and
+Collection.
+
+3 K4
+
+b. Consider the universal relation R = {A, B, C, D, E, F, G, H, I, J} and the
+set of functional dependencies F = { {A, B}→{C}, {A}→{D, E},
+{B}→{F}, {F}→{G,H}, {D}→{I, J} }. Identify the key for R? Also
+define MVD with example.
+
+3 K4
+
+6. Attempt any one part of the following: 07 x 1 = 07
+Q no. Question CO Level
+a. Illustrate Conflict Serializable Schedule. Check the given Schedule S1
+is Conflict Serializable or not? Also check is it view Serializable?
+S1: R1(X), R2(X),R2(Y),W2(Y),R1(Y),W1(X)
+
+4 K4
+
+b. Explain schedule and transaction. Define the concepts of recoverable,
+cascade less, and strict schedules, and compare them in terms of their
+recoverability.
+
+4 K4
+
+7. Attempt any one part of the following: 07 x 1 = 07
+Q no. Question CO Leve
+l
+
+a. Explore the following
+(i) Multi version protocol
+(ii) Validation based protocol
+
+5 K4
+
+b. Explain deadlock. What are the necessary conditions for it? How it can be
+detected and recovered?

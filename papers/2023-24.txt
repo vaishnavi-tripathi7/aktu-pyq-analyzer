@@ -1,0 +1,77 @@
+BTECH
+
+(SEM V) THEORY EXAMINATION 2023-24
+DATA BASE MANAGEMENT SYSTEM
+
+TIME: 3 HRS M.MARKS: 100
+
+1 | Page
+
+Note: 1. Attempt all Sections. If require any missing data; then choose suitably.
+
+SECTION A
+
+1. Attempt all questions in brief. 2 x 10 = 20
+Q No. Question Marks CO
+a. What is the concept of keys in database? 2 1
+b. What is strong & weak entity set? 2 1
+c. Explain referential integrity. 2 2
+d. Explain entity integrity constraints. 2 2
+e. Write different inference rule for functional dependency? 2 3
+f. Why do we normalize database? 2 3
+g. What do you mean by testing of serializability? 2 4
+h. Define replication in distributed database. 2 4
+i. Define concurrency control. 2 5
+j. Define exclusive lock. 2 5
+
+SECTION B
+
+2. Attempt any three of the following:
+a. Discuss three level of abstractions or schemas architecture of DBMS. 10 1
+b. What is Aggregate function in SQL? Write SQL query for aggregate function. 10 2
+c. Describe the following terms: (i) Multivalued dependency (ii) Trigger 10 3
+d. Discuss the procedure of deadlock detection and recovery in transaction? 10 4
+e. Write the salient features of graph based locking protocol with suitable example. 10 5
+
+SECTION C
+
+3. Attempt any one part of the following:
+a. State the procedural DML and nonprocedural DML with their differences. 10 1
+b. Discuss the role of database administrator & explain the database architecture. 10 1
+4. Attempt any one part of the following:
+a. What is ER Diagram? Explain different components of an ER Diagram with employee
+project Management system. 10 2
+b. Write difference between cross join, Natural join, left outer join and right outer join with
+suitable example. 10 2
+5. Attempt any one part of the following:
+a. What is functional dependency? Explain the procedure of calculating the canonical cover of
+a given functional dependency set with suitable example. 10 3
+
+QP24DP1_290
+| 19-01-2024 13:24:14 | 117.55.242.131
+
+QP24DP1_290 | 19-01-2024 13:24:14 | 117.55.242.131
+Printed Page: 2 of 2
+Subject Code: KCS501
+0Roll No: 0 0 0 0 0 0 0 0 0 0 0 0 0
+BTECH
+
+(SEM V) THEORY EXAMINATION 2023-24
+DATA BASE MANAGEMENT SYSTEM
+
+TIME: 3 HRS M.MARKS: 100
+
+2 | Page
+
+b. Describe the term MVD in the context of DBMS by giving an example. Discuss 4NF and
+5NF also. 10 3
+6. Attempt any one part of the following:
+a. What is conflict serializable Schedule? Explain the difference between conflict and view
+serializable schedule using suitable example? 10 4
+b. What is Log? How is it maintained? Discuss the features of deferred database modification
+and immediate database modification in brief. 10 4
+7. Attempt any one part of the following:
+a. Discuss 2 phase commit (2PC) protocol and time stamp-based protocol with suitable
+example. How the validation-based protocols differ from 2PC? 10 5
+b. What are multi version schemes of concurrency control? Describe with the help of an
+example. Discuss the various Time stamping protocols for concurrency control also. 10 5

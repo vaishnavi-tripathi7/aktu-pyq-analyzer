@@ -1,0 +1,42 @@
+topic,years,times,year_list,unit
+Data independence,4,4,"2020-21, 2021-22, 2022-23, 2024-25",1
+ER diagram and components,4,4,"2020-21, 2022-23, 2023-24, 2024-25",1
+DDL / DML (procedural DML),3,4,"2020-21, 2021-22, 2023-24",1
+Overall structure of DBMS,3,4,"2021-22, 2023-24, 2024-25",1
+Schema architecture / data abstraction,3,3,"2020-21, 2022-23, 2023-24",1
+DBA role and functions,2,2,"2021-22, 2023-24",1
+Data models,2,2,"2021-22, 2022-23",1
+ER to relational tables,2,2,"2022-23, 2024-25",1
+Keys,2,2,"2023-24, 2024-25",1
+"Strong/weak entity, recursive relationship",2,2,"2021-22, 2023-24",1
+File system vs DBMS,1,1,2022-23,1
+Generalization / specialization / aggregation,1,1,2020-21,1
+Relational algebra,4,5,"2020-21, 2021-22, 2022-23, 2024-25",2
+Joins,4,4,"2021-22, 2022-23, 2023-24, 2024-25",2
+SQL commands / features / clause,4,4,"2020-21, 2021-22, 2022-23, 2024-25",2
+Triggers,4,4,"2021-22, 2022-23, 2023-24, 2024-25",2
+Integrity constraints,3,4,"2020-21, 2022-23, 2023-24",2
+SQL queries (write in SQL),3,3,"2021-22, 2022-23, 2024-25",2
+Aggregate functions,2,2,"2020-21, 2023-24",2
+PL/SQL procedures,1,1,2020-21,2
+Relational calculus,1,1,2021-22,2
+Functional dependency / Armstrong / closure,5,15,"2020-21, 2021-22, 2022-23, 2023-24, 2024-25",3
+Normal forms and normalization,5,8,"2020-21, 2021-22, 2022-23, 2023-24, 2024-25",3
+MVD / 4NF / 5NF,4,5,"2021-22, 2022-23, 2023-24, 2024-25",3
+Decomposition (lossless / lossy),3,5,"2020-21, 2022-23, 2024-25",3
+Prime attributes and keys of a relation,3,5,"2020-21, 2022-23, 2024-25",3
+Canonical / minimum cover,3,3,"2020-21, 2022-23, 2023-24",3
+Transitive dependency,1,1,2021-22,3
+Serializability,5,9,"2020-21, 2021-22, 2022-23, 2023-24, 2024-25",4
+Log and log-based recovery,5,5,"2020-21, 2021-22, 2022-23, 2023-24, 2024-25",4
+ACID / transaction properties,4,4,"2020-21, 2021-22, 2022-23, 2024-25",4
+Deadlock,4,4,"2020-21, 2021-22, 2023-24, 2024-25",4
+Transaction states / failures / rollback,4,4,"2020-21, 2021-22, 2022-23, 2024-25",4
+Recoverable / cascadeless / strict schedules,2,3,"2022-23, 2024-25",4
+Distributed database / replication,1,1,2023-24,4
+Timestamp ordering,5,7,"2020-21, 2021-22, 2022-23, 2023-24, 2024-25",5
+"Locking (2PL, graph-based, granularity, locks)",5,6,"2020-21, 2021-22, 2022-23, 2023-24, 2024-25",5
+Validation / optimistic protocol,5,5,"2020-21, 2021-22, 2022-23, 2023-24, 2024-25",5
+Multiversion schemes,3,3,"2021-22, 2023-24, 2024-25",5
+Concurrency control (basics),2,2,"2020-21, 2023-24",5
+Two-phase commit (2PC),2,2,"2021-22, 2023-24",5

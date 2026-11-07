@@ -1,0 +1,16 @@
+times,years,unit,marks,question
+3,"2020-21, 2021-22, 2024-25",4,10,"Illustrate Conflict Serializable Schedule. Check the given Schedule S1 is Conflict Serializable or not? Also check is it view Serializable? S1: R1(X),"
+2,"2021-22, 2023-24",1,10,State the procedural DML and nonprocedural DML with their differences.
+2,"2020-21, 2023-24",1,10,What is ER Diagram? Explain different components of an ER Diagram with employee project Management system.
+2,"2020-21, 2022-23",2,2,What are different Integrity Constraints?
+2,"2021-22, 2022-23",2,10,"Consider the following schema for institute library: Student (RollNo, Name, Father_ Name, Branch) Book (ISBN, Title, Author, Publisher) Issue (RollNo,"
+2,"2020-21, 2023-24",2,10,What is Aggregate function in SQL? Write SQL query for aggregate function.
+2,"2022-23, 2024-25",2,10,Explain Joins? Discuss all types of Joins with the help of proper example of each.
+2,"2020-21, 2023-24",3,2,Write different inference rule for functional dependency?
+2,"2020-21, 2023-24",3,10,What is functional dependency? Explain the procedure of calculating the canonical cover of a given functional dependency set with suitable example.
+2,"2021-22, 2023-24",3,10,Describe the term MVD in the context of DBMS by giving an example. Discuss 4NF and 5NF also.
+2,"2022-23, 2024-25",3,2,"List all prime and non-prime attributes In Relation R(A,B,C,D,E) with FD set F = {AB→C, B→E, C→D}."
+2,"2021-22, 2023-24",4,10,Discuss the procedure of deadlock detection and recovery in transaction?
+2,"2020-21, 2024-25",4,2,Explain properties of Transaction.
+2,"2022-23, 2024-25",4,10,"Explain schedule and transaction. Define the concepts of recoverable, cascade less, and strict schedules, and compare them in terms of their recoverab"
+2,"2021-22, 2023-24",5,10,Discuss 2 phase commit (2PC) protocol and time stamp-based protocol with suitable example. How the validation-based protocols differ from 2PC?

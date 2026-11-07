@@ -1,0 +1,100 @@
+(SEM V) THEORY EXAMINATION 2022-23
+DATABASE MANAGEMENT SYSTEM
+
+Time: 3 Hours Total Marks: 100
+Note: Attempt all Sections. If you require any missing data, then choose suitably.
+
+SECTION A
+
+1. Attempt all questions in brief. 2x10 = 20
+(a) List any four disadvantages of file system approach over database approach.
+(b) Differentiate between physical and logical data independence.
+(c) What is the difference between DROP and DELETE command?
+(d) What are different Integrity Constraints?
+(e) List all prime and non-prime attributes In Relation R(A,B,C,D,E) with FD set
+F = {AB→C, B→E, C→D}.
+(f) Explain MVD with the help of suitable example.
+(g) Discuss Consistency and Isolation property of a transaction.
+(h) Draw a state diagram and discuss the typical states that a transaction goesthrough
+during execution.
+(i) Discuss Conservative 2PL and Strict 2PL.
+(j) Describe how view serializability is related to conflict serializability.
+
+SECTION B
+
+2. Attempt any three of the following: 10x3 = 30
+(a) A database is being constructed to keep track of the teams and games of a sport
+league. A team has a number of players, not all of whom participate in each
+game. It is desired to keep track of players participating in each game for each
+team, the positions they play in that game and the result of the game.
+(i) Design an E-R schema diagram for this application.
+(ii) Map the E-R diagram into relational model
+(b) What are Joins? Discuss all types of Joins with the help of suitable examples.
+(c) A set of FDs for the relation R{A, B, C, D, E, F} is AB →C, C → A, BC →
+D,ACD → B, BE → C, EC → FA, CF → BD, D→ E. Find a minimum cover
+forth is set of FDs
+(d) What is a schedule? Define the concepts of recoverable, cascade less and strict
+schedules, and compare them in terms of their recoverability.
+(e) Discuss the immediate update recovery technique in both single-user and
+multiuser environments. What are the advantages and disadvantages of
+immediate update?
+
+SECTION C
+
+3. Attempt any one part of the following: 10x1 = 10
+(a) Describe the three-schema architecture. Why do we need mappings between
+schema levels? How do different schema definition languages support this
+architecture?
+(b) What are the different types of Data Models in DBMS? Explain them.
+
+QP23DP1_290
+| 12-01-2023 13:23:25 | 117.55.242.132
+
+QP23DP1_290 | 12-01-2023 13:23:25 | 117.55.242.132
+4. Attempt any one part of the following: 10 x1 = 10
+(a) Consider the following schema for institute library:
+Student (RollNo, Name, Father_ Name, Branch)
+Book (ISBN, Title, Author, Publisher)
+Issue (RollNo, ISBN, Date-of –Issue)
+Write the following queries in SQL and relational algebra:
+(i) List roll number and name of all students of the branch ‘CSE’.
+(ii) Find the name of student who has issued a book published by ‘ABC’ publisher.
+(iii) List title of all books and their authors issued to a student ‘RAM’.
+(iv) List title of all books issued on or before December 1, 2020.
+(v) List all books published by publisher ‘ABC’
+(b) Explain different types of Triggers in SQL/PL SQL.
+5. Attempt any one part of the following: 10x1 = 10
+(a) Given the following set of FDs on schema R (V,W,X,Y,Z)
+{Z→V, W→Y, XY→Z, V→WX}State whether the following decomposition are
+loss-less-join decompositions or not.
+(i) R1=(V,W,X) , R2=(V,Y,Z)
+(ii) R1=(V,W,X), R2=(X,Y,Z)
+(b) Consider the universal relation R = {A, B, C, D, E, F, G, H, I, J} and the set of
+functional dependencies F = { {A, B}→{C}, {A}→{D, E}, {B}→{F},
+{F}→{G,H}, {D}→{I, J} }. What is the key for R? Decompose R into 2NF and
+then3NF relations.
+
+6. Attempt any one part of the following: 10x1 = 10
+(a) Consider schedules S1, S2, and S3 below. Determine whether each schedule is strict,
+cascade less, recoverable, or non recoverable. (Determine the strictest recoverability
+condition that each schedule satisfies.)
+S1: r1 (X); r2 (Z); r1 (Z); r3 (X); r3 (Y); w1 (X); c1; w3 (Y); c3; r2 (Y); w2 (Z); w2
+(Y); c2;
+S2: r1 (X); r2 (Z); r1 (Z); r3 (X); r3 (Y); w1 (X); w3 (Y); r2 (Y); w2 (Z); w2 (Y);
+c1;c2; c3;
+S3: r1 (X); r2 (Z); r3 (X); r1 (Z); r2 (Y); r3 (Y); w1 (X); c1; w2 (Z); w3 (Y); w2
+(Y);c3; c2;
+(b) Consider the three transactions T1, T2, and T3, and the schedules S1 and S2given
+below. State whether each schedule is serializable or not. If a schedule is serializable,
+write down the equivalent serial schedule(s).
+T1: r1 (X); r1 (Z); w1 (X);
+T2: r2 (Z); r2 (Y); w2 (Z); w2 (Y);
+T3: r3 (X); r3 (Y); w3 (Y);
+S1: r1 (X); r2 (Z); r1 (Z); r3 (X); r3 (Y); w1 (X); w3 (Y); r2 (Y); w2 (Z); w2 (Y);
+S2: r1 (X); r2 (Z); r3 (X); r1 (Z); r2 (Y); r3 (Y); w1 (X); w2 (Z); w3 (Y); w2 (Y);
+7. Attempt any one part of the following: 10x1 = 10
+(a) Discuss the timestamp ordering protocol for concurrency control. How does strict
+timestamp ordering differ from basic timestamp ordering?
+(b) How do optimistic concurrency control techniques differ from other concurrency
+control techniques? Why they are also called validation or certification techniques?
+Discuss the typical phases of an optimistic concurrency control method.

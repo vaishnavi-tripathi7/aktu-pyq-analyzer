@@ -1,0 +1,78 @@
+(SEM V) THEORY EXAMINATION 2021-22
+DATABASE MANAGEMENT SYSTEM
+
+Time: 3 Hours Total Marks: 100
+Note: 1. Attempt all Sections. If require any missing data; then choose suitably.
+
+SECTION A
+
+1. Attempt all questions in brief. 2 x 10 = 20
+a. What is the significance of Physical Data Independence?
+b. List the four functions of DBA.
+c. When a relation set is called a recursive relationship set?
+d. What do you mean by currency with respect to database?
+e. What is Relational Calculus?
+f. What is Equi-Join in database?
+g. What is a CLAUSE in terms of SQL?
+h. Define the closure of an attribute set.
+i. When is a transaction Rolled Back?
+j. List the various levels of locking?
+SECTION B
+
+2. Attempt any three of the following: 10 x 3 = 30
+a. Draw the overall structure of DBMS and explain its various components.
+
+b. Which relational algebra operations require the participating tables to be union-
+compatible? Give the Reason in detail.
+
+c. What do you understand by transitive dependencies? Explain with an example
+any two problems that can arise in the database if transitive dependencies are
+present in the database.
+d. List ACID properties of transaction. Explain the usefulness of each. What is
+the importance of log?
+e. What do you mean by time stamping protocol for concurrency controlling?
+Discuss multi version scheme of concurrency control.
+
+SECTION C
+
+3. Attempt any one part of the following: 10 x 1 = 10
+(a) What are the different types of Data Models in DBMS? Explain them.
+(b) State the procedural DML and nonprocedural DML with their differences.
+4. Attempt any one part of the following: 10 x 1 = 10
+(a) Consider the following schema for institute library:
+Student (RollNo, Name, Father_ Name, Branch)
+Book (ISBN, Title, Author, Publisher)
+Issue (RollNo, ISBN, Date-of –Issue)
+Write the following queries in SQL and relational algebra:
+I. List roll number and name of all students of the branch ‘CSE’.
+II. Find the name of student who has issued a book published by ‘ABC’
+publisher.
+III. List title of all books and their authors issued to a student ‘RAM’.
+IV. List title of all books issued on or before December 1, 2020.
+V. List all books published by publisher ‘ABC’.
+(b) What do you mean by trigger? Explain it by a suitable example.
+
+QP22O1P_290
+| 03-Jan-2022 08:59:38 | 117.55.242.131
+
+QP22O1P_290 | 03-Jan-2022 08:59:38 | 117.55.242.131
+Printed Page: 2 of 2
+Subject Code: KCS501
+0Roll No: 0 0 0 0 0 0 0 0 0 0 0 0 0
+5. Attempt any one part of the following: 10 x 1 = 10
+(a) Describe Armstrong’s axioms in detail. What is the role of these rules in
+database development process?
+(b) Describe the term MVD in the context of DBMS by giving an example. Discuss
+4NF and 5NF also.
+
+6. Attempt any one part of the following: 10 x 1 = 10
+(a) Describe serializable schedule. Discuss conflict serializability with suitable
+example.
+(b) Discuss the procedure of deadlock detection and recovery in transaction?
+7. Attempt any one part of the following: 10 x 1 = 10
+(a) Given a schedule S for transactions T1 and T2 with set of read and write
+operations,
+S: R1(X) R2(X) R2(Y) W2(Y) R1(Y) W1(X).
+Identify, whether given schedule is equivalent to serial schedule or not?
+(b) Discuss 2 phase commit (2PC) protocol and time stamp based protocol with
+suitable example. How the validation based protocols differ from 2PC?

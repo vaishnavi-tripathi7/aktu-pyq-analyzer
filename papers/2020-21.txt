@@ -1,0 +1,114 @@
+(SEM V) THEORY EXAMINATION 2020-21
+DATABASE MANAGEMENT SYSTEM
+
+Time: 3 Hours Total Marks: 100
+Note: 1. Attempt all Sections. If require any missing data; then choose suitably.
+
+SECTION A
+
+1. Attempt all questions in brief. 2 x 10 = 20
+Qno. Question Marks CO
+a. What is Data Independency in DBMS? 2 CO1
+b. Write the difference between DDL and DML. 2 CO1
+c. What are different Integrity Constraints? 2 CO2
+d. Explain different Features of SQL. 2 CO2
+e. What are advantages of normalization? 2 CO3
+f. Write different Inference Rule for Functional Dependency? 2 CO3
+g. What are ACID properties of Transaction? 2 CO4
+h. What are various reasons for transaction failure? 2 CO4
+i. What are Concurrent Transactions? 2 CO5
+j. What is Lock in Transaction Management? 2 CO5
+
+SECTION B
+
+2. Attempt any three of the following: 3 x 10 = 30
+Qno. Question Marks CO
+a. What is ER Diagram? Explain different Components of an ER
+Diagram with thier Notation. Also make an ER Diagram for Employee
+Project Management System.
+
+10 CO1
+
+b. What is Relational Algebra? Explain Different Operations of
+Relational Algebra with Example.
+
+10 CO2
+
+c. (i) What is highest normal form of the Relation R(W,X,Y,Z) with the
+set F= { WY → XZ, X →Y }
+(ii) Consider a relation R(A,B,C,D,E) with set F= { A→CD,
+C→B,B→AE} What are the prime attributes of this Relation and
+Decompose the given relation in 3NF.
+
+10 CO3
+
+d. Explain the method of testing the serializability. Consider the schedule
+S1 and S2 given below
+S1: R1(A),R2(B),W1(A),W2(B)
+S2: R2(B),R1(A),W2(B), W1(A)
+Check whether the given schedules are conflict equivalent or not?
+
+10 CO4
+
+e. Explain the Validation Based protocol for concurrency control. 10 CO5
+
+AKTU_QP20E290QP
+| 23-Feb-2021 09:13:24 | 117.55.242.131
+
+AKTU_QP20E290QP | 23-Feb-2021 09:13:24 | 117.55.242.131
+Printed Page: 2 of 2
+Subject Code: KCS501
+0Roll No: 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+2 | Page
+
+SECTION C
+3. Attempt any one part of the following:
+Qno. Question Marks CO
+a. What is Data Abstraction? How the Data Abstraction is achieved in
+DBMS?
+
+10 CO1
+
+b. Explain the following with example
+(i) Generalization
+(ii) Specialization
+(iii) Aggregation
+
+10 CO1
+
+4. Attempt any one part of the following:
+Qno. Question Marks CO
+a. What is Aggregate Function in SQL? Write SQL query for different
+Aggregate Function.
+
+10 CO2
+b. Explain Procedure in SQL/PL SQL. 10 CO2
+
+5. Attempt any one part of the following:
+Qno. Question Marks CO
+a. What is Functional Dependency? Explain the procedure of
+calculating the Canonical Cover of a given Functional Dependency
+Set with suitable example.
+
+10 CO3
+
+b. (i) Consider the relation R(a,b,c,d) with Set F={a→c,b→d}.
+Decompose this relation in 2 NF.
+(ii) Explain the Loss Less Decomposition with example.
+
+10 CO3
+
+6. Attempt any one part of the following:
+Qno. Question Marks CO
+a. What is Conflict Serializable Schedule? Check the given Schedule S1
+is Conflict Serializable or not?
+S1: R1(X), R2(X),R2(Y),W2(Y),R1(Y),W1(X)
+
+10 CO4
+
+b. Explain Deadlock Handling with Suitable Example 10 CO4
+7. Attempt any one part of the following:
+Qno. Question Marks CO
+a. Explain Time Stamp Based Concurrency Control technique. 10 CO5
+b. Explain Recovery from
